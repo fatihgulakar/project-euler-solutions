@@ -16,7 +16,7 @@ int main(){
     }
     std::cout << sum << std::endl;
 }
-// Binet's n-th number of Fibonacci formula
+// Binet's n-th number of Fibonacci sequence formula
 double binet(int n){
     return round((pow(phi, n) - pow(psi, n))/2.2360679774);
 } 
